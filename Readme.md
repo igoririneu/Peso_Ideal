@@ -7,7 +7,7 @@
 
 <br>
 
-<img alt="Gif da página" src="./img/Demo.gif">
+<img alt="Gif da página" src="./img/Demo.gif>
 <h3 align="center">
 <br>
     <a href="https://imc-peso-ideal.netlify.app/" target="_blank"> <strong> Demo on Netlifly </strong> </a></h3>
