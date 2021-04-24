@@ -13,7 +13,7 @@ Acima de 40 - Obesidade Grau 3. */
 // Meta - Quantos kg deve-se ganhar ou perder para se chegar no peso ideal?
 
 
-let inputPeso = document.getElementById("peso");
+let inputPeso = document.getElementById("peso")
 let inputAltura = document.getElementById("altura")
 
 let resultado = document.getElementById("resultado")
@@ -46,9 +46,11 @@ function calcular() {
     function pesoIdeal() {
 
         if (imc <= 18.5) {
-            return `ganhar ${(18.5 * altura ** 2 - peso).toFixed(2)}Kg`
+            return `Você precisa ganhar ${(18.5 * altura ** 2 - peso).toFixed(2)}Kg para atingir seu peso ideal`
         } else if (imc >= 24.9) {
-            return `perder ${-(24.9 * altura ** 2 - peso).toFixed(2)}Kg`
+            return `Você precisa perder ${-(24.9 * altura ** 2 - peso).toFixed(2)}Kg para atingir seu peso ideal`
+        } else {
+            return `Parabéns, você está em forma!`
         }
     }
 
@@ -57,36 +59,6 @@ function calcular() {
 
     resultado.innerHTML += `<p>${classificacao()}</p>`
 
-    resultado.innerHTML += `<p>Você precisará ${pesoIdeal()} para atingir seu peso ideal.</p>`
+    resultado.innerHTML += `<p>${pesoIdeal()}</p>`
 }
-
-// function classificacao(conceito){
-
-//     let conceito = ""
-
-//     if (imc <= 18.5){
-//         return conceito = `Abaixo do peso`
-//     } else if (18.5 <= imc < 24.9){
-//         return conceito = `Peso ideal`
-//     } else if (25.0 <= imc < 29.9){
-//         return conceito = `Pré-obesidade`
-//     } else if (30.0 <= imc < 34.9){
-//         return conceito = `Obesidade Grau 1`
-//     } else if (35.0 <= imc < 39.9){
-//         return conceito = `Obesidade Grau 2`
-//     } else {
-//         return conceito = `Obesidade Grau 3`
-//     }
-// }
-
-// function pesoIdeal(x){
-
-//     let x = ""
-
-//     if (imc <= 18.5 ) {
-//         return (peso + x) / altura**2 >= 18,5;
-//     } else if (imc >= 24.9){
-//        return (peso - x) / altura**2 <= 24,9;
-//     }  
-// }
 

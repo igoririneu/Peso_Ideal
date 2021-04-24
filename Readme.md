@@ -3,11 +3,11 @@
 
 <br>
 
-<h2 align="center"> Página para cálculo do índice de massa corporal (IMC) e classificação de peso.</h2>
+<h2 align="center"> Página para o cáculo do IMC.</h2>
 
 <br>
 
-<img alt="Gif da página" src="./Img/Demo.gif">
+<img alt="Gif da página" src="./img/Demo.gif">
 <h3 align="center">
 <br>
     <a href="https://imc-peso-ideal.netlify.app/" target="_blank"> <strong> Demo on Netlifly </strong> </a></h3>
