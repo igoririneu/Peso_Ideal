@@ -3,7 +3,7 @@
 
 <br>
 
-<h2 align="center"> Página para o cáculo do IMC.</h2>
+<h2 align="center"> Página para cálculo do IMC e classificação de peso.</h2>
 
 <br>
 
